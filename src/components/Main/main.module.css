@@ -1,0 +1,12 @@
+.section {
+  position: relative;
+}
+.button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20.125em;
+}
+.person {
+  width: 85.9375em;
+}

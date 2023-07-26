@@ -1,10 +1,10 @@
+import { useEffect, useState } from "react";
+import Modal from "../Modal/Modal";
 import s from "./wheel.module.css";
 import wheel from "../../images/wheel.png";
 import arrow from "../../images/arrow.png";
 import btnSpine from "../../images/btnSpine.png";
 import button from "../../images/button.png";
-import { useEffect, useState } from "react";
-import Modal from "../Modal/Modal";
 
 export default function Wheel() {
   const [count, setCount] = useState(2);

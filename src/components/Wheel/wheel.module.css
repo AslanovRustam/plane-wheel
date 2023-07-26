@@ -29,7 +29,6 @@
 .wheel {
   width: 40.625em;
   height: 40.625em;
-  /* background: url(../img/Wheel.png); */
   background-position: 50%;
   background-size: 100% 100%;
   position: relative;
@@ -92,14 +91,11 @@
 
 @media (orientation: portrait) {
   .container {
-    /* margin-top: -32em; */
     margin-top: 10em;
   }
   .btnContainer {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    /* bottom: 2em; */
+    left: 0;
     bottom: 1em;
   }
 }

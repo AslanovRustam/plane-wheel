@@ -8,7 +8,6 @@ function App() {
     <>
       <Header />
       <Main />
-      {/* <img className={s.button} src={button} alt="button" /> */}
     </>
   );
 }

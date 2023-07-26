@@ -36,14 +36,11 @@
   .section {
     align-items: flex-start;
   }
-  /* .person {
-    bottom: -32em;
-    left: -16em;
-  } */
+
   .person {
-    position: absolute;
+    position: fixed;
     top: unset;
-    /* bottom: 5.5em; */
+
     bottom: 1.5em;
     left: -1em;
     z-index: 2;

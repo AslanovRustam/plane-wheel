@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plane-wheel/static/css/main.38647a4a.css",
-    "main.js": "/plane-wheel/static/js/main.7afd143c.js",
+    "main.css": "/plane-wheel/static/css/main.5cb49ba6.css",
+    "main.js": "/plane-wheel/static/js/main.35e1dd87.js",
     "static/media/bg.png": "/plane-wheel/static/media/bg.d7a9af6558d085322655.png",
     "static/media/wheel.png": "/plane-wheel/static/media/wheel.27a6adc1413a46d9bd47.png",
     "static/media/plane.png": "/plane-wheel/static/media/plane.4298f30c5f98231bdf15.png",
@@ -13,11 +13,11 @@
     "static/media/button.png": "/plane-wheel/static/media/button.5878f48d8ddc8dc91581.png",
     "static/media/arrow.png": "/plane-wheel/static/media/arrow.0e42ae3be9cedb7157b6.png",
     "index.html": "/plane-wheel/index.html",
-    "main.38647a4a.css.map": "/plane-wheel/static/css/main.38647a4a.css.map",
-    "main.7afd143c.js.map": "/plane-wheel/static/js/main.7afd143c.js.map"
+    "main.5cb49ba6.css.map": "/plane-wheel/static/css/main.5cb49ba6.css.map",
+    "main.35e1dd87.js.map": "/plane-wheel/static/js/main.35e1dd87.js.map"
   },
   "entrypoints": [
-    "static/css/main.38647a4a.css",
-    "static/js/main.7afd143c.js"
+    "static/css/main.5cb49ba6.css",
+    "static/js/main.35e1dd87.js"
   ]
 }

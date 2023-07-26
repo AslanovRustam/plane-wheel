@@ -1,12 +1,55 @@
 .section {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1.875em;
 }
-.button {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 20.125em;
-}
+
 .person {
-  width: 85.9375em;
+  position: relative;
+  /* width: 50%; */
+  display: flex;
+  align-items: flex-end;
+  transform: rotate(-5.75deg);
+  z-index: 1;
+}
+.plane {
+  width: 85.875em;
+  max-width: unset;
+  margin-top: 2.5em;
+  margin-left: -10em;
+  animation: levitate 8s ease-in-out alternate infinite;
+}
+
+@keyframes levitate {
+  from {
+    transform: translate(0, 0);
+    rotate: -5deg;
+  }
+  to {
+    transform: translate(0.2em, 2em);
+    rotate: 2deg;
+  }
+}
+@media (orientation: portrait) {
+  .section {
+    align-items: flex-start;
+  }
+  /* .person {
+    bottom: -32em;
+    left: -16em;
+  } */
+  .person {
+    position: absolute;
+    top: unset;
+    /* bottom: 5.5em; */
+    bottom: 1.5em;
+    left: -1em;
+    z-index: 2;
+  }
+  .plane {
+    width: 58em;
+    margin-left: -4em;
+  }
 }

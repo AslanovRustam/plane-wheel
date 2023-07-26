@@ -6,8 +6,9 @@ import s from "./main.module.css";
 export default function Main() {
   return (
     <section className={s.section}>
-      <img className={s.person} src={plane} alt="plane" />
-      {/* <img className={s.button} src={button} alt="button" /> */}
+      <div className={s.person}>
+        <img className={s.plane} src={plane} alt="plane" />
+      </div>
       <Wheel />
     </section>
   );
